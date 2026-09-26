@@ -177,14 +177,16 @@ div[data-testid="stPlotlyChart"] {
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
 }
 
-.royale-hero::after {
-    content: "👑";
-    position: absolute;
-    right: 40px;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 85px;
-    opacity: 0.9;
+@media (min-width: 1400px) {
+    .royale-hero::after {
+        content: "👑";
+        position: absolute;
+        right: 40px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 85px;
+        opacity: 0.9;
+    }
 }
 
 .insight-card {
